@@ -1,21 +1,22 @@
 import React from 'react';
 import Header from './components/header';
-import Counter from './components/counter';
 
+const {useState} = React;
 
 function App (){
+
+    const [counter, setCounter] = useState(0);
 
     return(
         <>
         <Header/>
-        <Counter/>
+
+        <p>{counter} TESTE COUNTER</p>
         
-        <main>
-            
 
-            <p>Lorem </p>
-
-        </main>
+        <button onClick={() => {
+            setCounter(counter+1);
+        }}>Inc Counter</button>
 
         </>
     )
