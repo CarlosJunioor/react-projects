@@ -12,6 +12,7 @@ function App (){
         <Header/>
 
         <p>{counter} TESTE COUNTER</p>
+        <p>{counter} TESTE COUNTER</p>
         
 
         <button onClick={() => {
