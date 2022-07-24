@@ -13,6 +13,7 @@ function App (){
 
         <p>{counter} TESTE COUNTER</p>
         <p>{counter} TESTE COUNTER</p>
+        <p>{counter} tESTE COUNTER</p>
         
 
         <button onClick={() => {
