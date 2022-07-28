@@ -12,9 +12,9 @@ function Menu() {
               alt=""
               src={logo}
               width="40"
-              height="30"
+              height="60"
             />
-          <Navbar.Brand href="#home">Crypto Aviation</Navbar.Brand>
+          <Navbar.Brand href="#home"></Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Hangar</Nav.Link>
             <Nav.Link href="#features">Staking</Nav.Link>

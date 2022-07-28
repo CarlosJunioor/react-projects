@@ -1,5 +1,46 @@
+*{ 
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+
+.total{
+    background-color: 	#01012b;
+    height: 100vh;
+}
+
 main{
     padding: 30px;
     margin: 100px;
-    background-color: #444;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px black;
+
 }
+
+section{
+    color: white;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    background-color: gray;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    background-color: aqua;
+    content: "";
+    float: right;
+    display: flex;
+    clear: both;
+  }

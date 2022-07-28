@@ -5,12 +5,21 @@ import './index.css'
 
 function App (){
   return (
-    <div>
+    <div className='total'>
     <Menu />
-    <main>
-      TESTE
-    </main>
-  
+
+    <div className='row'>
+      <div className='column'>
+    <p>CRYPTOAVIATION STATISTICS</p>
+    
+    </div>
+
+    <div className='column'>
+    <p>WELCOME TO CRYPTOAVIATION</p>
+    </div>
+
+
+    </div>
     </div>
   )
 }
