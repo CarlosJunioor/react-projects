@@ -16,7 +16,7 @@ function App (){
         <p>{counter} TESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
-        <p>{idade}</p>
+        <p>{idade}</p><p>{idade}</p><p>{idade}</p><p>{idade}</p>
 
         
 
