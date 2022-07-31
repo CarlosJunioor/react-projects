@@ -7,7 +7,7 @@ function App (){
 
     const [counter, setCounter] = useState(0);
     const idade = 10
-    const game = true
+    const game = 50
 
     return(
         <>
