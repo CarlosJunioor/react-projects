@@ -19,7 +19,8 @@ function App (){
         <p>{counter} tESTE COUNTER</p>
         <p>{idade}</p><p>{idade}</p><p>{idade}</p><p>{idade}</p>
         <p>{game}</p>
-        
+        <p>{idade}</p><p>{idade}</p><p>{idade}</p><p>{idade}</p>
+        <p>{game}</p>
 
         <button onClick={() => {
             setCounter(counter+1);
