@@ -18,7 +18,7 @@ function App (){
         <p>{counter} tESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
         <p>{idade}</p>
-        <p>{IDADE}</p>
+        <h1>hello this is a test commit</h1>
         
         
 
