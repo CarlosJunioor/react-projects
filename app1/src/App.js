@@ -18,6 +18,7 @@ function App (){
         <p>{counter} tESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
         <p>{idade}</p>
+        <p>{IDADE}</p>
         
         
 
