@@ -6,8 +6,8 @@ const {useState} = React;
 function App (){
 
     const [counter, setCounter] = useState(0);
-    const idade = 10
-    const game = 50
+    const idade = 10 +20
+   
 
     return(
         <>
@@ -17,10 +17,9 @@ function App (){
         <p>{counter} TESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
-        <p>{idade}</p><p>{idade}</p><p>{idade}</p><p>{idade}</p>
-        <p>{game}</p>
-        <p>{idade}</p><p>{idade}</p><p>{idade}</p><p>{idade}</p>
-        <p>{game}</p>
+        <p>{idade}</p>
+        
+        
 
         <button onClick={() => {
             setCounter(counter+1);
