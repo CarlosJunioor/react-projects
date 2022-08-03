@@ -19,6 +19,7 @@ function App (){
         <p>{counter} tESTE COUNTER</p>
         <p>{idade}</p>
         <h1>hello this is a test commit</h1>
+        <h2> HI THIS IS A TEST COMMIT 2</h2>
         
         
 
