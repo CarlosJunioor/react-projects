@@ -18,13 +18,7 @@ function App (){
         <p>{counter} tESTE COUNTER</p>
         <p>{counter} tESTE COUNTER</p>
         <p>{idade}</p>
-        <h1>hello this is a test commit</h1>
-        <h2> HI THIS IS A TEST COMMIT 2</h2>
-        <h3> this is a test commit 3</h3>
-        <h3> this is a test commit 4</h3>
-        <h1>this is a tst commit 5</h1>
-        <h1> anotheer commit just</h1>
-        <h1> another commit</h1>
+        
         
         
 
