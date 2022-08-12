@@ -14,10 +14,7 @@ function App (){
         <Header/>
 
         <p>{counter} TESTE COUNTER</p>
-        <p>{counter} TESTE COUNTER</p>
-        <p>{counter} tESTE COUNTER</p>
-        <p>{counter} tESTE COUNTER</p>
-        <p>{idade}</p>
+        <p>{counter = -counter}</p>
         
         
         
