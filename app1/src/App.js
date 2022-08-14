@@ -6,7 +6,7 @@ const {useState} = React;
 function App (){
 
     const [counter, setCounter] = useState(0);
-    const idade = 10 +20
+    const idade = 0;
    
 
     return(
@@ -14,7 +14,9 @@ function App (){
         <Header/>
 
         <p>{counter} TESTE COUNTER</p>
-        <p>{counter = -counter}</p>
+
+        <p>{idade}</p>
+        
         
         
         
