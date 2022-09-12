@@ -17,6 +17,9 @@ function App (){
     <div className='column'>
     <p>WELCOME TO CRYPTOAVIATION</p>
     </div>
+    <div className='column'>
+    <p>testintt this out</p>
+    </div>
 
 
     </div>
