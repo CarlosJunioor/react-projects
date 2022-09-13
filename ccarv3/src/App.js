@@ -21,6 +21,9 @@ function App (){
     <p>testintt this out</p>
     </div>
 
+    <div className='colum'>
+      <p>HELLO WORTL THIS IS A TEST OF PROGRAMMING</p>
+    </div>
 
     </div>
     </div>
