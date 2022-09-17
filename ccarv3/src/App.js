@@ -27,7 +27,8 @@ function App (){
     
     <div className='column'><p>HELLO THIS IS TEST AGAIN</p></div>
 
-    <div className='column'><p>Home Page</p></div>
+    
+    <div className='column'><p>Home Page</p></div><div className='column'><p>Home Page</p></div>
 
     </div>
     </div>
