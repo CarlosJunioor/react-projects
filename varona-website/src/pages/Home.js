@@ -13,6 +13,7 @@ function Home() {
             <div style={{backgroundColor:'#000',padding:'20px',display:'flex',justifyContent:'center'}}>
                 <img src={banner} width='200' alt='Varona Esports Gaming' />
             </div>
+            <h2> testing this website</h2>
         </>
     )
 }
