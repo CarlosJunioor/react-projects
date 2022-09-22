@@ -7,7 +7,6 @@ function App() {
 
   const [items, setItems] = useState([]);
 
-
   const readExcel=(file)=> {
 
     const promise = new Promise((resolve,reject)=>{
@@ -27,9 +26,7 @@ function App() {
         const data = XLSX.utils.sheet_to_json(ws);
 
         resolve(data);
-
       };
-
       fileReader.onerror = (error) => {
         reject(error);
       };
@@ -40,7 +37,6 @@ function App() {
       console.log(d.length);
       console.log(Math.floor(Math.random() * d.length)+1);
     });
-
   }
   return (
     <>
@@ -63,7 +59,7 @@ function App() {
       <tr key={d.username}>
       <th>{d.username}</th>
       <td>{d.__rowNum__}</td>
-    </tr>
+      </tr>
 
       ))}
     
