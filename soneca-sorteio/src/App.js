@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import React, { useEffect, useState} from 'react';
 import './App.css';
 import * as XLSX from 'xlsx';
+import Test from './pages/Test.js';
 
 function App() {
 
@@ -31,16 +32,42 @@ function App() {
         reject(error);
       };
     });
+    
 
     promise.then((d) => {
       setItems(d);
       console.log(d.length);
-      console.log(Math.floor(Math.random() * d.length)+1);
+      console.log(d[Math.floor(Math.random() * d.length)+1].username);
     });
+   
   }
   return (
     <>
-    <h1>Hello world</h1>
+
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Soneca Sorteio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" onClick={<Test/>}>Sorteio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Spreedsheet</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <h1>Planilha de Usernames</h1>
     <input type="file" onChange={(e) => {
       const file = e.target.files[0];
       readExcel(file);    }} />
@@ -50,7 +77,6 @@ function App() {
     <tr>
       <th scope="col">Username</th>
       <th scope="col">Number</th>
-      <th scope="col">xsr</th>
     </tr>
   </thead>
   <tbody>
