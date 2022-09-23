@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import React, { useEffect, useState} from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import * as XLSX from 'xlsx';
 import Test from './pages/Test.js';
@@ -44,55 +45,32 @@ function App() {
   return (
     <>
 
-<nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Soneca Sorteio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" onClick={<Test/>}>Sorteio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Spreedsheet</a>
-        </li>
-       
-      </ul>
-    </div>
-  </div>
-</nav>
 
     <h1>Planilha de Usernames</h1>
     <input type="file" onChange={(e) => {
       const file = e.target.files[0];
-      readExcel(file);    }} />
+      readExcel(file);    
+      }} />
 
-<table class="table">
-  <thead>
-    <tr>
-      <th scope="col">Username</th>
-      <th scope="col">Number</th>
-    </tr>
-  </thead>
-  <tbody>
-    {
-      items.map((d)=> (
-      <tr key={d.username}>
-      <th>{d.username}</th>
-      <td>{d.__rowNum__}</td>
-      </tr>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Username</th>
+            <th scope="col">Number</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            items.map((d)=> (
+            <tr key={d.id}>
+            <th>{d.username}</th>
+            <td>{d.__rowNum__}</td>
+            </tr>
 
-      ))}
-    
-  </tbody>
-</table>
-      
-
+            ))}
+          
+        </tbody>
+      </table>
     </>
   );
 }
