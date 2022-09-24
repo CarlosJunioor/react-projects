@@ -37,22 +37,22 @@ function App() {
 
     promise.then((d) => {
       setItems(d);
-      console.log(d.length);
       console.log(d[Math.floor(Math.random() * d.length)+1].username);
+      document.getElementById("demo").innerHTML = d[Math.floor(Math.random() * d.length)+1].username;
     });
    
   }
   return (
     <>
 
-
-    <h1>Planilha de Usernames</h1>
+    <h1>Winner</h1>
+    <h2 id='demo'>hello</h2>
     <input type="file" onChange={(e) => {
       const file = e.target.files[0];
       readExcel(file);    
       }} />
 
-      <table class="table">
+      <table className='table'>
         <thead>
           <tr>
             <th scope="col">Username</th>
