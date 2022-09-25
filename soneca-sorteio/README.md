@@ -1,1 +1,1 @@
-![](`r https://imgur.com/rOhyflR`)
+![](`https://imgur.com/rOhyflR`)
