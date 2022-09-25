@@ -1,5 +1,4 @@
 <h1 align="center">
-  <p align="center">Docusaurus</p>
   <a href="#"><img src="https://github.com/CarlosJunioor/react-projects/blob/main/soneca-sorteio/src/assets/readme-banner.png?raw=true" alt="Soneca"></a>
 </h1>
 
@@ -7,7 +6,7 @@
 
 O Alura MIDI é um instrumento musical de interface digitial (MIDI), que reproduz sons de instrumentos musicais, por enquanto de uma bateria, ao usuário clicar ou pressionar com teclado em seus botões.
 
-<img src="https://imgur.com/rOhyflR" alt="Imagem do Alura MIDI" width="50%">
+<img src="https://im.ezgif.com/tmp/ezgif-1-c392307d1f.gif" alt="Imagem do Alura MIDI" width="50%">
 
 
 ## 🔨 Funcionalidades do projeto
