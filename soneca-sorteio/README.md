@@ -1,17 +1,17 @@
 <h1 align="center">
-  <a href="#"><img src="https://github.com/CarlosJunioor/react-projects/blob/main/soneca-sorteio/src/assets/readme-banner.png?raw=true" alt="Soneca"></a>
+  <a href="#"><img src="https://github.com/CarlosJunioor/react-projects/blob/main/soneca-sorteio/src/assets/readme-banner.png?raw=true" alt="SonecaRox Automatizar"></a>
 </h1>
 
 # Qual a função?
 
-O Alura MIDI é um instrumento musical de interface digitial (MIDI), que reproduz sons de instrumentos musicais, por enquanto de uma bateria, ao usuário clicar ou pressionar com teclado em seus botões.
+Função é de simplesmente automatizar o atual método de sortear ganhadores na live do Sonecarox, https://www.twitch.tv/sonecarox, única coisa que você precisa fazer é encontrar o seu arquivo .xlsx, dentro desse arquivo a unica coisa que você vai precisar possuir é tabela com nome dos usernames e pronto.
 
-<img src="https://im.ezgif.com/tmp/ezgif-1-c392307d1f.gif" alt="Imagem do Alura MIDI" width="50%">
+<img src="https://im.ezgif.com/tmp/ezgif-1-c392307d1f.gif" alt="Gif Website SonecaRox" width="50%">
 
 
 ## 🔨 Funcionalidades do projeto
 
-O MIDI tem um teclado digitial com 9 botões, cada botão reproduzirá o som de dado instrumento musical. O HTML carregará os arquivos de mídia com o som dos instrumentos através do elemento `<audio>`, e com o MIDI vamos controlar a reprodução destes arquivos de mídia através do clique em seus elementos `<button>`. Serão 9 sons diferentes.
+O Projeto trabalho com SheetJS e Javascript, juntamente com a função .map corre o array do ficheiro .xlsv e insere dentro desse mesmo array.
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
@@ -33,12 +33,12 @@ O MIDI tem um teclado digitial com 9 botões, cada botão reproduzirá o som de 
 
 [Veja o projeto final do curso em funcionamento](https://aluramidi-curso.vercel.app/).
 
-Neste repositório você tem acesso a todo o material produzido no curso.
+Neste repositório você tem acesso a todo o material produzido.
 
 ## 🛠️ Abrir e rodar o projeto
 
 Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador.
 
-## 📚 Mais informações do curso
+## 📚 Autor
 
-Busque na plataforma da Alura o curso **JavaScript para web: crie páginas dinâmicas** publicado na Escola Frontend.
+- Carlos Junior
