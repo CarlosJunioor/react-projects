@@ -3,7 +3,6 @@ import React, { useEffect, useState} from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 import * as XLSX from 'xlsx';
-import Test from './pages/Test.js';
 
 function App() {
 
@@ -52,25 +51,17 @@ function App() {
       readExcel(file);    
       }} />
 
-      <table className='table'>
-        <thead>
-          <tr>
-            <th scope="col">Username</th>
-            <th scope="col">Number</th>
-          </tr>
-        </thead>
+  
         <tbody>
-          {
+          {/*
             items.map((d)=> (
             <tr key={d.id}>
             <th>{d.username}</th>
             <td>{d.__rowNum__}</td>
             </tr>
-
-            ))}
+            ))*/}
           
         </tbody>
-      </table>
     </>
   );
 }
