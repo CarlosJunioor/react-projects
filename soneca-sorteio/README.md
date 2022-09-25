@@ -1,5 +1,4 @@
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/BvTQAl2" data-context="false" ><a href="//imgur.com/a/BvTQAl2"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+![MarineGEO circle logo](/react-projects/soneca-sorteio/src/assets/readme-banner.png "Banner")
 # Qual a função?
 
 O Alura MIDI é um instrumento musical de interface digitial (MIDI), que reproduz sons de instrumentos musicais, por enquanto de uma bateria, ao usuário clicar ou pressionar com teclado em seus botões.
