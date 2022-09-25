@@ -43,25 +43,24 @@ function App() {
   }
   return (
     <>
-
-    <h1>Winner</h1>
-    <h2 id='demo'>hello</h2>
-    <input type="file" onChange={(e) => {
-      const file = e.target.files[0];
-      readExcel(file);    
-      }} />
-
-  
-        <tbody>
+      <h1>Sorteador Sonecarox</h1>
           {/*
             items.map((d)=> (
             <tr key={d.id}>
             <th>{d.username}</th>
             <td>{d.__rowNum__}</td>
             </tr>
-            ))*/}
-          
-        </tbody>
+            ))*/
+          }
+            <div class='file-input'>
+            <input type="file" onChange={(e) => {const file = e.target.files[0];
+            readExcel(file);
+            }}/>
+              <span class='button'>Selecione o ficheiro</span>
+            </div>
+                <div class="line">
+                    <h2 id='demo' className='lineUp'>Ganhador é:</h2>
+                </div>
     </>
   );
 }
