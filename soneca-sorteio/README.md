@@ -1,4 +1,7 @@
-![alt text](https://github.com/[CarlosJunioor]/[react-projects]/blob/[soneca-sorteio]/src/assets/readme-banner.png?raw=true)
+<h1 align="center">
+  <p align="center">Docusaurus</p>
+  <a href="#"><img src="https://github.com/CarlosJunioor/react-projects/blob/main/soneca-sorteio/src/assets/readme-banner.png?raw=true" alt="Soneca"></a>
+</h1>
 
 # Qual a função?
 
