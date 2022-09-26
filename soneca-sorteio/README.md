@@ -2,43 +2,29 @@
   <a href="#"><img src="https://github.com/CarlosJunioor/react-projects/blob/main/soneca-sorteio/src/assets/readme-banner.png?raw=true" alt="SonecaRox Automatizar"></a>
 </h1>
 
-# Qual a função?
+# What is this application?
 
-Função é de simplesmente automatizar o atual método de sortear ganhadores na live do Sonecarox, https://www.twitch.tv/sonecarox, única coisa que você precisa fazer é encontrar o seu arquivo .xlsx, dentro desse arquivo a unica coisa que você vai precisar possuir é tabela com nome dos usernames e pronto.
+Function is to simply automate the current method of raffling winners in Sonecarox live, https://www.twitch.tv/sonecarox, the only thing you need to do is find your .xlsx file, inside that file the only thing you you will need to have a table with the name of the usernames and that's it.
 
 <img src="https://im.ezgif.com/tmp/ezgif-1-c392307d1f.gif" alt="Gif Website SonecaRox" width="50%">
 
 
-## 🔨 Funcionalidades do projeto
+## 🔨 Project functionalities
 
-O Projeto trabalho com SheetJS e Javascript, juntamente com a função .map corre o array do ficheiro .xlsv e insere dentro desse mesmo array.
+The Project works with SheetJS and Javascript, together with the .map function, it runs the .xlsv file array and inserts it into that same array.
+## ✔️ Technology used
 
-## ✔️ Técnicas e tecnologias utilizadas
+- `HTML`: HTML plays a fundamental role for the application to work correctly with the insertion of `<audio>` elements that will provide JavaScript with the playback controls of the loaded media. The HTML will come ready-made in the initial course files;
+- `CSS`: The CSS has a fundamental role to indicate the user's interaction with the graphical interface, therefore it indicates when the buttons are pressed by mouse or keyboard. The CSS will already be ready in the initial course files;
+- `JavaScript`: JavaScript will allow us to program the dynamics of controlling the reproduction of a sound, which in principle is being performed by the `<audio>` element, and pass this control to the `<button>` elements, with great care to make an intelligent code, without repetition, that also takes care of the visual aspects with dynamic CSS. Below are some topics covered in the course:
 
-- `HTML`: O HTML tem um papel fundamental para a aplicação funcionar corretamente com a inserção dos elementos `<audio>` que irão prover para o JavaScript os controles de reprodução da mídia carregada. O HTML já virá pronto nos arquivos iniciais do curso;
-- `CSS`: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica, portanto indica quando os botões são pressionados por mouse ou teclado. O CSS já virá pronto nos arquivos iniciais do curso;
-- `JavaScript`: O JavaScript proporcionará programarmos a dinâmica de controle de reprodução de um som, que a princípio está sendo realizada pelo elemento `<audio>`, e passarmos este controle para os elementos `<button>`, com todo o cuidado de fazer um código inteligente, sem repetição, que cuida também os aspectos visuais com CSS dinâmico. Abaixo alguns tópicos abordados no curso:
-  - `querySelector`;
-  - `document`;
-  - `const`;
-  - `function`;
-  - `while`;
-  - `for`;
-  - `if`;
-  - `else`;
-  - `template string`;
-  - `event handlers`;
+- React
 
-## 📁 Acesso ao projeto
+## 📁 My project
 
-[Veja o projeto final do curso em funcionamento](https://aluramidi-curso.vercel.app/).
+[Click here to check the project](https://soneca-sorteio.vercel.app/).
 
-Neste repositório você tem acesso a todo o material produzido.
 
-## 🛠️ Abrir e rodar o projeto
-
-Para abrir e rodar o projeto, basta abrir o aquivo `index.html` no navegador.
-
-## 📚 Autor
+## 📚 Author
 
 - Carlos Junior
