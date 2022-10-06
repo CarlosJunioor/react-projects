@@ -24,6 +24,9 @@ function App (){
     <div className='colum'>
       <p>HELLO WORTL THIS IS A TEST OF PROGRAMMING</p>
     </div>
+    <div className='colum'>
+      <p>HELLO WORTL THIS IS A TEST OF PROGRAMMING</p>
+    </div>
     
     <div className='column'><p>HELLO THIS IS TEST AGAIN</p></div>
 
