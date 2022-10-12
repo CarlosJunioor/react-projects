@@ -1,46 +1,15 @@
-*{ 
-    box-sizing: border-box;
-    word-wrap: break-word;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .navbar-active .hamburger div:first-child {
+    @apply rotate-45 translate-y-1.5;
+    }
+    .navbar-active .hamburger div:last-child {
+    @apply -rotate-45 -translate-y-1;
+    }
+    .navbar-active div:first-child div:first-child div:last-child{
+        @apply block lg:flex
+    }
 }
-
-
-.total{
-    background-color: 	#01012b;
-    height: 100vh;
-}
-
-main{
-    padding: 30px;
-    margin: 100px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 2px 2px black;
-
-}
-
-section{
-    color: white;
-}
-
-p{
-    color: white;
-    font-weight: bold;
-}
-
-/* Create two equal columns that floats next to each other */
-.column {
-    background-color: gray;
-    float: left;
-    width: 50%;
-    padding: 10px;
-    
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    background-color: aqua;
-    content: "";
-    float: right;
-    display: flex;
-    clear: both;
-  }

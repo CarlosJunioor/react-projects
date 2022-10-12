@@ -13,7 +13,7 @@ import {
     NavbarText
 } from 'reactstrap';
 import {
-    Link, useHistory
+    Link,
 } from "react-router-dom";
 
 const Header = () => {
